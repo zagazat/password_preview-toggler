@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LoginForm from './routes/main/';
 import {createStore, applyMiddleware, combineReducers} from 'redux';
 import { Provider } from 'react-redux';
-import postProcess from './store/reducers';
+// import postProcess from './store/reducers';
 import { reducer as forms } from 'redux-form';
 
 const reducers = combineReducers({
-    postProcess,
+    // postProcess,
     form: forms
 });
 
